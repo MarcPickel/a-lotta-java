@@ -1,5 +1,7 @@
 {
   "name": "take-and-read",
+  "type": "module",
+  "private": true,
   "version": "1.0.0",
   "description": "Take And Read serves a dual purpose:",
   "homepage": "https://github.com/MarcPickel/take-and-read#readme",
@@ -12,9 +14,13 @@
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --open",
+    "build": "vite build",
+    "privew": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.4"
   }
 }
