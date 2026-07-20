@@ -1,6 +1,9 @@
-# Take And Read
+# A Lotta Java
 
-Take And Read serves a dual purpose:
+The JavaScript Repository in which I practice and hone my JavaScript skills into functionable code
 
-1. To help me in fashioning and styling my new Man's Search for Reading webpage to be hosted on an existing Weebly website, and
-2. To help in honing and mastering my JavaScript skills.
+## Features
+
+- Object Oriented Programming (OOP)
+- Modules
+- Registration/Login/Log Off/Unregistration
