@@ -7,3 +7,4 @@ The JavaScript Repository in which I practice and hone my JavaScript skills into
 - Object Oriented Programming (OOP)
 - Modules
 - Registration/Login/Log Off/Unregistration
+- Fun with Functions
