@@ -1,14 +1,26 @@
 const calculator = document.getElementById("calculator");
 let display = calculator.querySelector("#display");
 
-const clearButton = calculator.querySelector("#clear");
+const clearButton = calculator.querySelector("#clear-button");
+const equalsButton = calculator.querySelector("#equals-button");
 
 const appendToDisplay = (e) => {
-  return (display.value += e.target.value);
+  if (e.target.value === "=") {
+    return null;
+  }
+
+  display.value += e.target.value;
 };
 
 const handleClear = () => {
-  return (display.textContent = display.dataset.defaultValue);
+  display.value = "";
+};
+
+const calculate = () => {
+  display.value = eval(display.value);
+  return +display.value;
 };
 
 calculator.addEventListener("click", appendToDisplay);
+clearButton.addEventListener("click", handleClear);
+equalsButton.addEventListener("click", calculate);
