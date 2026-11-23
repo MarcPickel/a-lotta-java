@@ -1,9 +1,9 @@
 {
-  "name": "take-and-read",
+  "name": "a-lotta-java",
   "type": "module",
   "private": true,
   "version": "1.0.0",
-  "description": "Take And Read serves a dual purpose:",
+  "description": "A Lotta Java is a website filled with JavaScript projects.",
   "homepage": "https://github.com/MarcPickel/take-and-read#readme",
   "bugs": {
     "url": "https://github.com/MarcPickel/take-and-read/issues"
@@ -24,7 +24,6 @@
     "vite": "^8.1.5"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.3.3",
-    "tailwindcss": "^4.3.3"
+    "normalize.css": "^8.0.1"
   }
 }

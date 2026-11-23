@@ -12,7 +12,7 @@
     <link href="./index.css" rel="stylesheet" />
   </head>
 
-  <body>
+  <body class="main-body">
     <!--
 Structure Tabs as Categories to Functionality:
 * Finance
@@ -63,21 +63,27 @@ Create:
 -->
 
     <header>
-      <nav class="bg-blue-50">
-        <ul class="flex gap-4 text-xl">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="./pages/calculators.html">Calculators</a></li>
+      <img />
+      <nav class="main-nav">
+        <ul class="main-nav__menu">
+          <li><a href="index.html" class="main-nav__menu-item">Home</a></li>
+          <li>
+            <a href="./pages/calculators.html" class="main-nav__menu-item"
+              >Calculators</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
 
-    <main class="bg-yellow-50">
-      <p class="text-4x1">
-        Welcome to A Lotta Java, the JavaScript webpage that includes an
+    <main class="main">
+      <h1 class="main__title"></h1>
+      <p class="main__subtitle">
+        Welcome to A Lotta Java: The JavaScript webpage that includes an
         assortment of various JavaScript Projects
       </p>
     </main>
-    <footer class="bg-blue-50">Footer</footer>
+    <footer class="main-footer">Footer</footer>
   </body>
   <script src="/index.js" type="module"></script>
 </html>

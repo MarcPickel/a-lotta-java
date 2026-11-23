@@ -1,0 +1,35 @@
+.main-body {
+  background-color: #f7df1e;
+}
+
+.main-nav {
+}
+
+.main-nav__menu {
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+
+  list-style-type: none;
+}
+
+.main-nav__menu-item {
+  color: #323330;
+  text-decoration: none;
+}
+
+.main {
+  color: #323330;
+}
+
+.main__title {
+  font-size: 30px;
+}
+
+.main__subtitle {
+  font-size: 24px;
+}
+
+.main-footer {
+  color: #323330;
+}

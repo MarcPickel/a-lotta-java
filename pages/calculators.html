@@ -11,7 +11,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link href="../index.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="calc-body">
     <header>
       <nav class="bg-blue-50">
         <ul class="flex gap-4 text-xl">
@@ -22,12 +22,14 @@
     </header>
 
     <main>
-      <section class="flex flex-col items-center text-2xl font-bold">
-        <h2 class="mb-1">Simple Calculator</h2>
-        <div id="calculator" class="p-2 bg-gray-800">
+      <!-- Simple Calculator -->
+
+      <section class="m-8 flex flex-col items-center text-2xl font-bold">
+        <h2 class="mb-3">Simple Calculator</h2>
+        <div id="simple-calculator" class="p-2 bg-gray-800">
           <!-- Display -->
           <input
-            id="display"
+            id="display1"
             class="mb-3 p-1 bg-gray-400 text-gray-100"
             readonly
           />
@@ -137,6 +139,132 @@
               C
             </button>
           </div>
+        </div>
+      </section>
+
+      <!-- Advanced Calculator -->
+
+      <section class="flex flex-col items-center text-2xl font-bold">
+        <h2 class="mb-3">Advanced Calculator</h2>
+        <div id="advanced-calculator" class="p-2 bg-blue-300 rounded-sm">
+          <form class="flex flex-col items-center">
+            <div>
+              <input
+                type="text"
+                id="display2"
+                readonly
+                class="m-3 bg-gray-100"
+              />
+            </div>
+            <div>
+              <input
+                id="ac-button"
+                type="button"
+                value="AC"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+              <input
+                id="de-button"
+                type="button"
+                value="DE"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+              <input
+                type="button"
+                value="."
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+              <input
+                type="button"
+                value="/"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+            </div>
+            <div>
+              <input
+                type="button"
+                value="7"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+              <input
+                type="button"
+                value="8"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+              <input
+                type="button"
+                value="9"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+              <input
+                type="button"
+                value="*"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+            </div>
+            <div>
+              <input
+                type="button"
+                value="4"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+              <input
+                type="button"
+                value="5"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+              <input
+                type="button"
+                value="6"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+              <input
+                type="button"
+                value="-"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+            </div>
+            <div>
+              <input
+                type="button"
+                value="1"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+              <input
+                type="button"
+                value="2"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+              <input
+                type="button"
+                value="3"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+              <input
+                type="button"
+                value="+"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+            </div>
+            <div>
+              <input
+                type="button"
+                value="00"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+              <input
+                type="button"
+                value="0"
+                class="border-0 w-12 shadow-md hover: cursor-pointer"
+              />
+              <input
+                id="eq-button"
+                type="button"
+                value="="
+                class="border-0 w-26 shadow-md hover: cursor-pointer"
+              />
+            </div>
+          </form>
         </div>
       </section>
     </main>
