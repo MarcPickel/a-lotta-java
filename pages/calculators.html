@@ -19,9 +19,7 @@
         <ul class="nav__menu">
           <li><a href="../index.html" class="nav__menu-item">Home</a></li>
           <li>
-            <a href="/calculators.html" class="nav__menu-item"
-              >Calculators</a
-            >
+            <a href="/calculators.html" class="nav__menu-item">Calculators</a>
           </li>
           <li>
             <a href="#" class="nav__menu-item">Graphs</a>
@@ -48,125 +46,130 @@
       </nav>
     </header>
 
-    <main>
+    <main class="calc-main">
       <!-- Simple Calculator -->
 
       <section class="section">
         <h2 class="section__title">Simple Calculator</h2>
-        <div id="simple-calculator" class="calc-body">
-          <!-- Display -->
-          <input id="display1" class="calc-display" readonly />
-          <!-- Buttons in grid pattern -->
-          <div id="keys" class="calc-buttons">
-            <button
-              value="+"
-              class="calc-button"
-            >
-              +
-            </button>
-            <button
-              value="7"
-              class="calc-button"
-            >
-              7
-            </button>
-            <button
-              value="8"
-              class="calc-button"
-            >
-              8
-            </button>
-            <button
-              value="9"
-              class="calc-button"
-            >
-              9
-            </button>
-            <button
-              value="-"
-              class="calc-button"
-            >
-              -
-            <calc-button"
-            >
-              4
-            </button>
-            <button
-              value="5"
-              class="calc-button"
-            >
-              5
-            </button>
-            <button
-              value="6"
-              class="calc-button"
-            >
-              6
-            </button>
-            <button
-              value="*"
-              class="calc-button"
-            >
-              *
-            </button>
-            <button
-              value="1"
-              class="calc-button"
-            >
-              1
-            </button>
-            <button
-              value="2"
-              class="calc-button"
-            >
-              2
-            </button>
-            <button
-              value="3"
-              class="calc-button"
-            >
-              3
-            </button>
-            <button
-              value="/"
-              class="calc-button"
-            >
-              /
-            </button>
-            <button
-              value="0"
-              class="calc-button"
-            >
-              0
-            </button>
-            <button
-              value="."
-              class="calc-button"
-            >
-              .
-            </button>
-            <button
-              id="equals-button"
-              value="="
-              class="calc-button"
-            >
-              =
-            </button>
-            <button
-              id="clear-button"
-              class="calc-button"
-            >
-              C
-            </button>
+        <div id="simple-calculator" class="calculator simple-calculator">
+          <div>
+            <!-- Display -->
+            <input id="display1" class="calculator__display" readonly />
+            <!-- Buttons in grid pattern -->
+            <div id="keys" class="calculator__buttons">
+              <button
+                value="+"
+                class="calculator__button simple-calculator__button simple-calculator__operator-button"
+              >
+                +
+              </button>
+              <button
+                value="7"
+                class="calculator__button simple-calculator__button"
+              >
+                7
+              </button>
+              <button
+                value="8"
+                class="calculator__button simple-calculator__button"
+              >
+                8
+              </button>
+              <button
+                value="9"
+                class="calculator__button simple-calculator__button"
+              >
+                9
+              </button>
+              <button
+                value="-"
+                class="calculator__button simple-calculator__button simple-calculator__operator-button"
+              >
+                -
+              </button>
+              <button
+                value="4"
+                class="calculator__button simple-calculator__button"
+              >
+                4
+              </button>
+              <button
+                value="5"
+                class="calculator__button simple-calculator__button"
+              >
+                5
+              </button>
+              <button
+                value="6"
+                class="calculator__button simple-calculator__button"
+              >
+                6
+              </button>
+              <button
+                value="*"
+                class="calculator__button simple-calculator__button simple-calculator__operator-button"
+              >
+                *
+              </button>
+              <button
+                value="1"
+                class="calculator__button simple-calculator__button"
+              >
+                1
+              </button>
+              <button
+                value="2"
+                class="calculator__button simple-calculator__button"
+              >
+                2
+              </button>
+              <button
+                value="3"
+                class="calculator__button simple-calculator__button"
+              >
+                3
+              </button>
+              <button
+                value="/"
+                class="calculator__button simple-calculator__button simple-calculator__operator-button"
+              >
+                /
+              </button>
+              <button
+                value="0"
+                class="calculator__button simple-calculator__button"
+              >
+                0
+              </button>
+              <button
+                value="."
+                class="calculator__button simple-calculator__button"
+              >
+                .
+              </button>
+              <button
+                id="equals-button"
+                value="="
+                class="calculator__button simple-calculator__button simple-calculator__operator-button"
+              >
+                =
+              </button>
+              <button
+                id="clear-button"
+                class="calculator__button simple-calculator__button simple-calculator__operator-button"
+              >
+                C
+              </button>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- Advanced Calculator -->
 
-      <section class="flex flex-col items-center text-2xl font-bold">
-        <h2 class="mb-3">Advanced Calculator</h2>
-        <div id="advanced-calculator" class="p-2 bg-blue-300 rounded-sm">
+      <section class="section">
+        <h2 class="section__title">Advanced Calculator</h2>
+        <div id="advanced-calculator" class="">
           <form class="flex flex-col items-center">
             <div>
               <input
