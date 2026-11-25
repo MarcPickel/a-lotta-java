@@ -1,3 +1,27 @@
+@import "./variables.css";
+@import "./header.css";
+
 .calc-body {
-  background-color: #f7df1e;
+  background-color: var(--primary-color);
+}
+
+.section {
+}
+
+.section__title {
+}
+
+.section__text {
+}
+
+.calc-body {
+}
+
+.calc-display {
+}
+
+.calc-buttons {
+}
+
+.calc-button {
 }
